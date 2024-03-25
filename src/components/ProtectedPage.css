@@ -1,0 +1,73 @@
+.login-form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem; /* Adjust padding as needed */
+  }
+  
+  .head, .middle-head {
+    text-align: center; /* Aligning the heading center */
+    margin-bottom: 10px; /* Add margin between headings and other content */
+  }
+  
+  .login-form-wrapper {
+    width: 100%;
+    max-width: 30rem; /* Adjust the max-width as needed */
+    border: 2px solid #e2e8f0; /* Outer border */
+    border-radius: 0.5rem; /* Border radius */
+    overflow: hidden; /* Hide overflow content */
+    padding: 1.5rem; /* Add padding inside the wrapper */
+  }
+  
+  .container {
+    max-width: 800px; /* Adjust this value as per your requirement */
+    padding: 20px;
+    border: 2px solid #ccc; /* Boundary border */
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Background color of the boundary */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add shadow to the boundary */
+    margin-top: 20px; /* Add margin between container and pagination */
+  }
+  
+  .pagination-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adjust as needed */
+   
+    
+    padding: 10px;
+  }
+  
+  .pagination-button {
+    margin: 0 5px; /* Adjust spacing between buttons */
+  }
+  
+  .pagination-button:first-child {
+    margin-left: 0;
+  }
+  
+  .pagination-button:last-child {
+    margin-right: 0;
+  }
+  
+  .button-wrapper {
+    display: flex;
+  }
+  
+  /* Additional styling for the buttons */
+  button {
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  

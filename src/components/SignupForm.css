@@ -1,0 +1,59 @@
+/* components/SignupForm.css */
+.signup-form-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem; /* Adjust padding as needed */
+  }
+  
+  .signup-form-wrapper {
+    width: 100%;
+    max-width: 30rem; /* Adjust the max-width as needed */
+    border: 2px solid #e2e8f0; /* Outer border */
+    border-radius: 0.5rem; /* Border radius */
+    overflow: hidden; /* Hide overflow content */
+  }
+  
+  .signup-form {
+    background-color: #fff;
+    padding: 2rem; /* Adjust padding as needed */
+  }
+  
+  .signup-form label {
+    display: block;
+    color: #4a5568;
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #e2e8f0;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+  }
+  .head{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  
+  .signup-form button {
+    background-color: black;
+    color: #fff;
+    font-weight: 600;
+    padding: 0.75rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    width:430px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup-form button:hover {
+    background-color: black;
+  }
+  

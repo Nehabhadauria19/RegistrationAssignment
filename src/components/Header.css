@@ -1,0 +1,26 @@
+/* components/Header.css */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color:rgb(252, 252, 252); /* Change the background color to your preference */
+    color:black;
+    padding: 10px 20px; /* Adjust padding as needed */
+  }
+  
+  .header__nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the gap between categories */
+  }
+  .add{
+    text-align: center;
+    background-color: rgb(159, 122, 136);
+  }
+  
+  .header__images {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the gap between images */
+  }
+  
